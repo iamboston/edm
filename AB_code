@@ -1,0 +1,3351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>Master_Template</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+<meta name="format-detection" content="telephone=no" />
+<style type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+body {
+	
+	-webkit-text-size-adjust: 100% !important;
+	-ms-text-size-adjust: 100% !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+img {
+	border: 0 !important;
+	outline: none !important;
+}
+p {
+	Margin: 0px !important;
+	Padding: 0px !important;
+}
+table {
+	border-collapse: collapse;
+	mso-table-lspace: 0px;
+	mso-table-rspace: 0px;
+}
+td, a, span {
+	border-collapse: collapse;
+	mso-line-height-rule: exactly;
+}
+.ExternalClass * {
+	line-height: 100%;
+}
+span.MsoHyperlink {
+      mso-style-priority:99;
+      color:inherit;}
+  
+span.MsoHyperlinkFollowed {
+      mso-style-priority:99;
+      color:inherit;
+	}
+.em_headertext_grey {
+	color: #333333;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+    text-decoration:none;
+		
+}
+.em_headertext_grey a, .em_prizetext2_grey span {
+	color: #88c9c5;
+	font-family: 'Roboto', sans-serif;
+    text-decoration:none;
+	white-space:nowrap;	
+}
+.prizetext2_grey span{
+	font-weight:bold;
+	}
+.em_bodytext_white {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+    text-decoration:none;
+	
+}
+.em_bodytext_white a {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+    text-decoration:underline;	
+}
+.em_nevigationtext_white {
+	color: #E74C62;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+    text-decoration:none;
+	
+}
+.em_nevigationtext_blue {
+	color: #0085cc;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+    text-decoration:none;
+	
+}
+.em_nevigationtext_blue a {
+	color: #e74c62;
+	font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration:none;	
+	
+}
+.em_nevigationtext_rev {
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+    text-decoration:none;
+	
+}
+.em_nevigationtext_rev a {
+	color: #ffffff
+	font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration:none;	
+	
+}
+.em_titletext_pink {
+	color: #e74c62;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	line-height: 27px;
+    text-decoration:none;
+		
+}
+.em_subtitletext_black {
+	color: #333333;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+    text-decoration:none;	
+}
+.em_headingtext_black {
+	color: #E74C62;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+    text-decoration:none;
+	
+	
+}
+	
+.em_recipetext_black {
+	color: #88c9c5;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+    text-decoration:none;
+	
+	
+}
+.em_bodytext_grey {
+	color: #6E6E6E;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+    text-decoration:none;
+		
+}
+.em_bodytext_pink {
+	color: #E74C62;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+    text-decoration:none;
+	
+	
+}
+.em_bodytext_pink a {
+	color: #E74C62;
+	font-family: 'Roboto', sans-serif;
+    text-decoration:none;
+	white-space:nowrap;	
+}
+.em_bodyrecipetext_grey {
+	color: #88C9C5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+    text-decoration:none;
+	
+	
+}
+.em_bodyrecipetext_grey a {
+	color: #88C9C5;
+	font-family: 'Roboto', sans-serif;
+    text-decoration:none;
+	white-space:nowrap;	
+}
+.em_titletext_white {
+	color: #ffffff;
+	font-family:Oswald, sans-serif;
+	font-size: 24px;
+	line-height: 27px;
+    text-decoration:none;
+	
+}
+	.em_titletext_pink {
+	color: #E74C62;
+	font-family:Oswald, sans-serif;
+	font-size: 24px;
+	line-height: 27px;
+    text-decoration:none;
+	
+}
+	.em_titletext_green {
+	color: #88C9C5;
+	font-family:Oswald, sans-serif;
+	font-size: 24px;
+	line-height: 27px;
+    text-decoration:none;
+	
+}
+.em_headingtext_white {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	line-height: 22px;
+    text-decoration:none;
+	
+}
+.em_prizetext1_white {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	line-height: 40px;
+    text-decoration:none;
+	
+}
+.em_footertext_grey {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+    text-decoration:none;
+		
+}
+.em_footertext_grey a {
+	color: #ffffff;
+    text-decoration:underline;
+	white-space:nowrap;	
+}
+.em_mrp_text {
+	color: #808080;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+    text-decoration:line-through;
+	
+}
+.em_prizetext2_grey {
+	color: #333333;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+    text-decoration:none;
+	
+}
+.em_contact_text1_grey {
+	color: #f1f4f5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+    text-decoration:none;
+	font-weight:bold;
+	
+}
+.em_contact_text1_grey a {
+	color: #f1f4f5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+    text-decoration:none;
+	font-weight:bold;
+	
+}
+.em_contact_text2_grey {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+    text-decoration:none;	
+}
+.em_contact_text2_grey a {
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+     text-decoration:none;	
+}
+.em_button_text_white {
+	color: #E74C62;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+   text-decoration:none;
+	
+	
+}
+.em_button_text_white a {
+	color: #E74C62;
+	font-family: 'Roboto', sans-serif;
+	 text-decoration:none;
+	 line-height:43px;
+	 display:block;
+	}
+.em_button_text_orange {
+	color: #E74C62;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+   text-decoration:none;
+	
+	
+}
+.em_button_text_blue a {
+	color: #88C9C5;
+	font-family: 'Roboto', sans-serif;
+	 text-decoration:none;
+	 line-height:43px;
+	 display:block;
+	}
+.em_button_text_blue {
+	color: #88C9C5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+   text-decoration:none;
+	
+	
+}
+.em_button_text_green a {
+	color: #88C9C5;
+	font-family: 'Roboto', sans-serif;
+	 text-decoration:none;
+	 line-height:43px;
+	 display:block;
+	}
+.em_button_text_green {
+	color: #88C9C5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+   text-decoration:none;
+	
+	
+}
+.em_button_text_orange a {
+	color: #E74C62;
+	font-family: 'Roboto', sans-serif;
+	 text-decoration:none;
+	 line-height:43px;
+	 display:block;
+	}
+.em_button_text_pink {
+	color: #E74C62;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+   text-decoration:none;
+	
+	
+}
+.em_button_text_pink a {
+	color: #E74C62;
+	font-family: 'Roboto', sans-serif;
+	 text-decoration:none;
+	 line-height:43px;
+	 display:block;
+	}
+.em_bodytext_grey ul {
+   margin: 0px;
+   padding: 0px;
+   list-style-position: inside; 
+   list-style-type:disc;
+}
+.em_bodytext_grey ul li {
+   font-family: 'Roboto', sans-serif;
+   line-height:20px;
+   margin: 0;
+   padding: 0;
+}
+.em_bodytext_grey ul li a {
+    font: 14px #808080 Roboto, sans-serif;
+   text-decoration:none;
+}		
+.em_bg_grey {
+	background-color:#414141;
+		
+}
+.em_bg_pink {
+	background-color:#414141;
+}
+.em_bg_orange {
+	background-color:#3a3a3a;		
+}
+.em_bg_green {
+	background-color:#88C9C5;		
+}
+.em_bg_button {
+	background-color:#88C9C5;
+}
+.em_bg_blogpink {
+	background-color:#E74C62;
+}
+.em_bg_buttonblue {
+	background-color:#88C9C5;		
+}
+.em_bg_buttonwhite {
+	background-color:#ffffff;		
+}
+.em_bg_lightgrey {
+	background-color:#e9e9e9;
+		
+}
+@media only screen and (min-width:481px) and (max-width:649px) {
+table[class=em_main_table] {
+	width: 100% !important;
+}
+table[class=em_wrapper] {
+	width: 100% !important;
+}
+table[class=em_tab_250] {
+	width:250px !important;
+}
+td[class=em_hide], br[class=em_hide], table[class=em_hide] {
+	display: none !important;
+}
+img[class=em_full_img] {
+	width: 100% !important;
+	height: auto !important;
+	max-width:100% !important;
+}
+td[class=em_pad_top]{
+	padding-top:20px !important;
+}
+td[class=em_pad_bottom]{
+	padding-bottom:20px !important;
+}
+td[class=em_aside]{
+	padding-left:20px !important;
+	padding-right:20px !important;
+}
+td[class=em_height]{
+	height: 20px !important;
+}
+td[class=em_space]{
+	width:15px !important;	
+}
+td[class=em_headertext_grey] {
+	text-align: center !important;
+}
+td[class=em_contact_text1_grey] {
+	text-align: center !important;
+}
+td[class=em_contact_text2_grey] {
+	text-align: center !important;
+}
+table[class=em_wrapper_50_1] {
+	width: 50% !important;
+    max-width:none !important;
+	
+}
+}
+@media only screen and (max-width:480px) {
+table[class=em_main_table] {
+	width: 100% !important;
+}
+table[class=em_wrapper] {
+	width: 100% !important;
+}
+td[class=em_hide], br[class=em_hide], span[class=em_hide], table[class=em_hide] {
+	display: none !important;
+}
+img[class=em_full_img] {
+	width: 100% !important;
+	height: auto !important;
+	max-width:100% !important;
+}
+td[class=em_pad_top]{
+	padding-top:20px !important;
+}
+td[class=em_pad_bottom]{
+	padding-bottom:20px !important;
+}
+td[class=em_height]{
+	height: 20px !important;
+}
+ td[class=em_aside]{
+	padding-left:15px !important;
+	padding-right:15px !important;
+} 
+td[class=em_space]{
+	width:15px !important;	
+}
+td[class=em_white]{
+	height: 20px !important;
+	background-color:#ffffff !important;
+}
+td[class=em_headertext_grey] {
+	text-align: center !important;
+}
+td[class=em_contact_text1_grey] {
+	text-align: center !important;
+}
+td[class=em_contact_text2_grey] {
+	text-align: center !important;
+}
+table[class=em_wrapper_50_1] {
+	width: 50% !important;
+    max-width:none !important;
+	
+}
+}
+</style>
+ <!--[if gte mso 9]>
+<style>
+.em_bodytext_grey ul {
+   margin: 0 0 0 30px;
+   padding: 0;
+   list-style:disc;
+}
+</style>
+<![endif]-->
+</head>
+<body style="margin:0px; padding:0px;" bgcolor="#ffffff">
+ <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+      <tr>
+        
+        <td align="center" valign="top">
+          <table style="table-layout:fixed;" width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+            <tr>
+              <td class="em_hide" height="1" style="line-height:0px; font-size:0px;"><img src="/images/spacer.gif" height="1" width="650" style="display:block; width:650px; min-width:650px;" border="0" /></td>
+            </tr>
+           
+            <tr>
+              <td valign="top" align="center">
+                <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                  <tr>
+                    <td valign="top">
+                    <repeater>
+                      <layout label='HEADER_1'>
+                     
+                      <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                        <tr>
+                          <td valign="top">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td width="30" class="em_space">&nbsp;</td>
+                                <td valign="top">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <tr>
+                                      <td height="20" class="em_height">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top">
+                                        <table width="250" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                          <tr>
+                                            <td class="em_headertext_grey" align="left"><singleline>If you can’t see this email?</singleline></td>
+                                          </tr>
+                                        </table>
+                                        <table width="250" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                                          <tr>
+                                            <td class="em_headertext_grey" align="right"><multiline><webversion style="text-decoration:none; color:#e74c62;">View it in your browser.</webversion></multiline></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td width="30" class="em_space">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="em_bg_grey" valign="top">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td height="36" class="em_height">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                    <tr>
+                                      <td width="30" class="hide">&nbsp;</td>
+                                      <td align="center" valign="top" style="font-size:0px; line-height:0px;"><a href="#" target="_blank" style="text-decoration:none;"><img src="/images/bfblogo__2x.png" editable="true" width="114" alt="LOGO HERE" style="display:block; max-width:114px; font-family:Arial, sans-serif; font-size:12px; line-height:16px; color:#ffffff; font-weight:bold;" border="0" /></a></td>
+                                      <td width="30" class="hide">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td height="36" class="em_height">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="em_bg_grey" align="center" valign="top">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td height="14" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top">
+                                 
+                                </td>
+                              </tr>
+                              <tr>
+                                <td height="14" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                      </table>
+                      </layout>
+                      
+                      
+                      <layout label='HEADER_2'>
+                      <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                        <tr>
+                          <td valign="top">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td width="30" class="em_space">&nbsp;</td>
+                                <td valign="top">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top">
+                                        <table width="250" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                          <tr>
+                                            <td class="em_headertext_grey" align="left"><singleline>If you can’t see this email?</singleline></td>
+                                          </tr>
+                                        </table>
+                                        <table width="250" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                                          <tr>
+                                            <td class="em_headertext_grey" align="right"><multiline><webversion style="text-decoration:none; color:#e74c62;">View it in your browser.</webversion></multiline></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td width="30" class="em_space">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top" class="em_bg_grey">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td height="36" class="em_height">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td valign="top">
+                                  <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                    <tr>
+                                      <td width="30" class="em_hide"></td>
+                                      <td valign="top">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                          <tr>
+                                            <td valign="top">
+                                              <table width="100" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                                <tr>
+                                                 <td align="center" valign="top" style="font-size:0px; line-height:0px;"><a href="#" target="_blank" style="text-decoration:none;"><img src="/images/bfblogo__2x.png" width="114" editable="true" alt="LOGO HERE" style="display:block; max-width:114px; font-family:Arial, sans-serif; font-size:12px; line-height:16px; color:#ffffff; font-weight:bold;" border="0" /></a></td>
+                                                </tr>
+                                              </table>
+                                              <table border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper" width="300">
+                                                <tr>
+                                                  <td valign="top" class="em_pad_top">
+                                                    
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td width="30" class="em_hide"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td height="36" class="em_height"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                      </table>
+                      </layout>
+                      
+                      
+                      <layout label='HEADER_3'>
+                      <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                        <tr>
+                          <td valign="top">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td width="30" class="em_space">&nbsp;</td>
+                                <td valign="top">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top">
+                                        <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                          <tr>
+                                            <td class="em_headertext_grey" align="center"><multiline>If you can’t see this email? <webversion style="text-decoration:none; color:#e74c62;">View it in your browser.</webversion></multiline></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="20" class="em_height">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td width="30" class="em_space">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td valign="top" class="em_bg_grey">
+                                  <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                    <tr>
+                                      <td height="36" class="em_height">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top">
+                                        <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                          <tr>
+                                            <td width="30" class="hide">&nbsp;</td>
+                                            <td valign="top">
+                                              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                <tr>
+                                                  <td valign="top">
+                                                    <table width="100" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                                      <tr>
+                                                        <td align="center" valign="top" style="font-size:0px; line-height:0px;"><a href="#" target="_blank" style="text-decoration:none;"><img src="/images/bfblogo__2x.png" width="114" editable="true" alt="LOGO HERE" style="display:block; max-width:114px; font-family:Arial, sans-serif; font-size:12px; line-height:16px; color:#ffffff; font-weight:bold;" border="0" /></a></td>
+                                                      </tr>
+                                                    </table>
+                                                    <table border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                                                      <tr>
+                                                        <td class="em_nevigationtext_white" align="center"><singleline>APRIL 26, 2018</singleline></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                            <td width="30" class="hide">&nbsp;</td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="36" class="em_height">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                             
+                                <tr>
+                                      <td height="20" class="em_height">&nbsp;</td>
+                                    </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      </layout>
+                      
+                      
+                       <layout label='HEADER_IMAGEBG'>
+                      <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                        <tr>
+                          <td valign="top">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td width="30" class="em_space">&nbsp;</td>
+                                <td valign="top">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top">
+                                        <table width="250" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                          <tr>
+                                            <td class="em_headertext_grey" align="left"><singleline>If you can’t see this email?</singleline></td>
+                                          </tr>
+                                        </table>
+                                        <table width="250" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                                          <tr>
+                                            <td class="em_headertext_grey" align="right"><multiline><webversion style="text-decoration:none; color:#e74c62;">View it in your browser.</webversion></multiline></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td width="30" class="em_space">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top" background="/images/rgb-sky.jpg" class="em_bg_grey">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td height="36" class="em_height">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td valign="top">
+                                  <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                    <tr>
+                                      <td width="30" class="em_hide"></td>
+                                      <td valign="top">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                          <tr>
+                                            <td valign="top">
+                                              <table width="100" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                                <tr>
+                                                 <td align="center" valign="top" style="font-size:0px; line-height:0px;"><a href="#" target="_blank" style="text-decoration:none;"><img src="/images/bfblogo_blacktext__2x.png" width="114" editable="true" alt="LOGO HERE" style="display:block; max-width:114px; font-family:Arial, sans-serif; font-size:12px; line-height:16px; color:#ffffff; font-weight:bold;" border="0" /></a></td>
+                                                </tr>
+                                              </table>
+                                              <table border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper" width="300">
+                                                <tr>
+                                                  <td valign="top" class="em_pad_top">
+                                                   
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td width="30" class="em_hide"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td height="36" class="em_height"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                      </table>
+                      </layout>
+                      </repeater>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            
+          </table>
+        </td>
+      </tr>
+    </table>
+ <repeater>
+ 
+<layout label='HEADER_TEXTUREBG'>
+                      <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                        <tr>
+                          <td valign="top">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td width="30" class="em_space">&nbsp;</td>
+                                <td valign="top">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top">
+                                        <table width="250" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                          <tr>
+                                            <td class="em_headertext_grey" align="left"><singleline>If you can’t see this email?</singleline></td>
+                                          </tr>
+                                        </table>
+                                        <table width="250" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                                          <tr>
+                                            <td class="em_headertext_grey" align="right"><multiline><webversion style="text-decoration:none; color:#e74c62;">View it in your browser.</webversion></multiline></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td width="30" class="em_space">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top" background="/images/rgb-image.jpg" class="em_bg_grey">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td height="36" class="em_height">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td valign="top">
+                                  <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                    <tr>
+                                      <td width="30" class="em_hide"></td>
+                                      <td valign="top">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                          <tr>
+                                            <td valign="top">
+                                              <table width="100" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                                <tr>
+                                                 <td align="center" valign="top" style="font-size:0px; line-height:0px;"><a href="#" target="_blank" style="text-decoration:none;"><img src="/images/bfblogo_blacktext__2x.png" width="114" editable="true" alt="LOGO HERE" style="display:block; max-width:114px; font-family:Arial, sans-serif; font-size:12px; line-height:16px; color:#ffffff; font-weight:bold;" border="0" /></a></td>
+                                                </tr>
+                                              </table>
+                                              <table border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper" width="300">
+                                                <tr>
+                                                  <td valign="top" class="em_pad_top">
+                                                   
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td width="30" class="em_hide"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td height="26" class="em_height"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                                      <td height="25" class="em_height">&nbsp;</td>
+                                    </tr>
+                      </table>
+                      </layout>
+                      </repeater>
+                    
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+ <repeater>
+        
+         <layout label='HERO_IMAGE'>
+         <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table style="table-layout:fixed;" width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+      
+      <tr>
+        <td align="center" valign="top"><img class="em_full_img" editable="true" src="/images/main_banner.jpg" width="1300" alt="650X345_img" style="display:block;max-width:650px;font-family:Arial, sans-serif; font-size:25px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+      </tr>
+      <tr>
+        <td height="20" style="line-height:1px;font-size:1px;"></td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+         </layout>
+         
+         
+            <layout label='TITLE + SUBTITLE'>
+         <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td width="45" class="em_space">&nbsp;</td>
+        <td valign="top">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tr>
+              <td class="em_titletext_pink" align="center"><singleline>HEADLINE GOES HERE</singleline></td>
+            </tr>
+           
+            <tr>
+              <td height="12" style="line-height:1px;font-size:1px;">&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="em_subtitletext_black" align="center"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</multiline></td>
+            </tr>
+            <tr>
+              <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+            </tr>
+          
+          </table>
+        </td>
+        <td width="45" class="em_space">&nbsp;</td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+         </layout>
+        
+         
+            <layout label='DIVIDER_1'>
+         <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+            <tr>
+              <td align="center" valign="top">
+                <table width="50" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                    <td height="2" style="line-height:0px;font-size:0px;" class="em_bg_pink"><img src="/images/spacer.gif" editable="true" width="1" style="display:block;" border="0" alt="" /></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td height="40" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+            </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+         </layout>
+        
+         
+            <layout label='DIVIDER_2'>
+         <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+             <tr>
+                    <td height="2" style="line-height:0px;font-size:0px;" class="em_bg_pink"><img src="/images/spacer.gif" editable="true" width="1" style="display:block;" border="0" alt="" /></td>
+                  </tr>
+            <tr>
+              <td height="40" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+            </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+         </layout>
+        
+         
+            <layout label='DIVIDER_3'>
+         <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+            <tr>
+             <td valign="top">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td valign="top">
+                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="11" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                      </tr>
+                       <tr>
+                    <td height="2" style="line-height:0px;font-size:0px;" class="em_bg_pink"><img src="/images/spacer.gif" editable="true" width="1" style="display:block;" border="0" alt="" /></td>
+                  </tr>
+                    </table>
+                    </td>
+                    <td align="center" valign="middle" width="50" style="font-size:0px; line-height:0px;">
+                      <img src="/images/mini_almondbreezelogo__2x.png" width="50" style="display:block;" border="0" alt="" editable="true" /></td>
+                    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="11" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                      </tr>
+                       <tr>
+                    <td height="2" style="line-height:0px;font-size:0px;" class="em_bg_pink"><img src="/images/spacer.gif" editable="true" width="1" style="display:block;" border="0" alt="" /></td>
+                  </tr>
+                    </table></td>
+                  </tr>
+                </table>
+             </td>
+            </tr>
+            <tr>
+              <td height="40" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+            </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+         </layout>
+        
+          
+            <layout label='2 COLUMN RECIPES_1'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+              <tr>
+                <td valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                       <td width="45" class="em_space">&nbsp;</td>
+                        <td valign="top"> 
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td valign="top">
+                                 <table width="265" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                <tr>
+                                  <td align="center" valign="top"><img editable="true" src="/images/img_265x150.jpg" width="530" alt="img_265X150" style="display:block;border:none; max-width:265px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" class="em_full_img" /></td>
+                                </tr>
+                                <tr>
+                                  <td height="25" class="em_height">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td class="em_recipetext_black" align="left"><singleline>HEADLINE HERE</singleline></td>
+                                </tr>
+                                <tr>
+                                  <td height="8" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td class="em_bodytext_grey" align="left"><multiline>Unknown printer took a galley of type and scrambled it to make a type specimen book.<br />
+<br />
+<a href="#" target="_blank" class="em_bodyrecipetext_grey"><a href="#" target="_blank" class="em_bodyrecipetext_grey" style="text-decoration:none; color:#88c9c5">Read More +</a></a></multiline></td>
+                                </tr>
+                              
+                                
+                               
+                              </table>
+                              <table width="265" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                                <tr>
+                                  <td align="center" valign="top" class="em_pad_top"><img editable="true" src="/images/img_265x150.jpg" width="530" alt="img_265X150" style="display:block;border:none; max-width:265px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" class="em_full_img" /></td>
+                                </tr>
+                                <tr>
+                                  <td height="25" class="em_height">&nbsp;</td>
+                                </tr>
+                                 <tr>
+                                  <td class="em_recipetext_black" align="left"><singleline>RECIPE HEADLINE HERE</singleline></td>
+                                </tr>
+                                <tr>
+                                  <td height="8" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td class="em_bodytext_grey" align="left"><multiline>Unknown printer took a galley of type and scrambled it to make a type specimen book.<br />
+<br />
+<a href="#" target="_blank" class="em_bodyrecipetext_grey" style="text-decoration:none; color:#88c9c5;">Read More +</a></multiline></td>
+                                </tr>
+                               
+                              </table>
+                                </td>
+                              </tr>
+                            </table>
+        
+                        
+                      </td>
+                      <td width="45" class="em_space">&nbsp;</td>
+                      </tr>
+                    </table>
+        
+                </td>
+              </tr>
+              <tr>
+                                  <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                                </tr>
+         </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+         
+            <layout label='2 COLUMN (LHS IMAGE & RHS TEXT)'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                         <table width="265" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                        <tr>
+                          <td align="center" valign="top" class="em_pad_bottom"><img class="em_full_img" editable="true" src="/images/265x265_img.jpg" width="530" alt="img_265X265" style="display:block;border:none; max-width:265px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" /></td>
+                        </tr>
+                     </table>
+                      <table width="265" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                       <tr>
+                          <td height="5" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD GOES HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod. Nunc faucibus varius ex eget aliquam<br />
+<br />
+<a href="#" target="_blank" class="em_bodytext_grey">Read More +</a></multiline></td>
+                        </tr>
+                      </table>
+                        </td>
+                      </tr>
+                    </table>
+                
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+         
+            <layout label='2 COLUMN (LHS TEXT & RHS IMAGE)'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                         <table width="265" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                        <tr>
+                          <td align="center" valign="top" class="em_pad_bottom"><img editable="true" class="em_full_img" src="/images/265x265_img.jpg" width="530" alt="img_265X265" style="display:block;border:none; max-width:265px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" /></td>
+                        </tr>
+                     </table>
+                      <table width="265" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                       <tr>
+                          <td height="5" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD GOES HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod. Nunc faucibus varius ex eget aliquam<br />
+<br />
+<a href="#" target="_blank" class="em_bodytext_grey">Read More +</a></multiline></td>
+                        </tr>
+                      </table>
+                        </td>
+                      </tr>
+                    </table>
+                
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+            <layout label='WHITE TITLE & CONTENT IN DARK GREY BOX'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td align="center" valign="top">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="em_bg_pink">
+            <tr>
+              <td width="45" class="em_space">&nbsp;</td>
+              <td align="center" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                    <td height="30" class="em_height">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="em_titletext_white" align="center"><singleline>HEADLINE COPY GOES HERE</singleline></td>
+                  </tr>
+                  <tr>
+                    <td height="7" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="em_bodytext_white"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</multiline></td>
+                  </tr>
+                  <tr>
+                    <td height="30" class="em_height">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td height="40" class="em_height">&nbsp;</td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+  <layout label='PINK TITLE & CONTENT IN DARK GREY BOX'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td align="center" valign="top">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="em_bg_pink">
+            <tr>
+              <td width="45" class="em_space">&nbsp;</td>
+              <td align="center" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                    <td height="30" class="em_height">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="em_titletext_pink" align="center"><singleline>HEADLINE COPY GOES HERE</singleline></td>
+                  </tr>
+                  <tr>
+                    <td height="7" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="em_bodytext_white"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</multiline></td>
+                  </tr>
+                  <tr>
+                    <td height="30" class="em_height">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td height="40" class="em_height">&nbsp;</td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+ <layout label='GREEN TITLE & CONTENT IN DARK GREY BOX'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td align="center" valign="top">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="em_bg_pink">
+            <tr>
+              <td width="45" class="em_space">&nbsp;</td>
+              <td align="center" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                    <td height="30" class="em_height">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="em_titletext_green" align="center"><singleline>HEADLINE COPY GOES HERE</singleline></td>
+                  </tr>
+                  <tr>
+                    <td height="7" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="em_bodytext_white"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</multiline></td>
+                  </tr>
+                  <tr>
+                    <td height="30" class="em_height">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td height="40" class="em_height">&nbsp;</td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+<layout label='TITLE & CONTENT IN PINK BOX'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td align="center" valign="top">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="em_bg_blogpink">
+            <tr>
+              <td width="45" class="em_space">&nbsp;</td>
+              <td align="center" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                    <td height="30" class="em_height">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="em_titletext_white" align="center"><singleline>HEADLINE COPY GOES HERE</singleline></td>
+                  </tr>
+                  <tr>
+                    <td height="7" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="em_bodytext_white"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</multiline></td>
+                  </tr>
+                  <tr>
+                    <td height="30" class="em_height">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td height="40" class="em_height">&nbsp;</td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+ <layout label='TITLE & CONTENT IN GREENBOX'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td align="center" valign="top">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="em_bg_green">
+            <tr>
+              <td width="45" class="em_space">&nbsp;</td>
+              <td align="center" valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tr>
+                    <td height="30" class="em_height">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="em_titletext_white" align="center"><singleline>HEADLINE COPY GOES HERE</singleline></td>
+                  </tr>
+                  <tr>
+                    <td height="7" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="em_bodytext_white"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</multiline></td>
+                  </tr>
+                  <tr>
+                    <td height="30" class="em_height">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td height="40" class="em_height">&nbsp;</td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>  
+         
+            <layout label='3 COLUMN(IMG + TITLE + CONTENT + LINK)'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                            <table width="365" border="0" align="left" cellpadding="0" cellspacing="0" class="em_wrapper">
+                  <tr>
+                    <td valign="top">
+                      <table width="170" border="0" align="left" cellpadding="0" cellspacing="0" class="em_wrapper">
+                        <tr>
+                                <td align="center"><img editable="true" class="em_full_img" src="/images/img_170x162.jpg" width="340" alt="img_170X162" style="display:block; max-width:170px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+                              </tr>
+                              <tr>
+                                <td height="28" class="em_height">&nbsp;</td>
+                              </tr>
+                             <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Pellentesque vitaeLorem ipsum dol amet, consectetur adipiscing elit.<br />
+<br />
+<a href="#" target="_blank" class="em_bodytext_grey">Read More +</a></multiline></td>
+                        </tr>
+                            </table>
+                            <table width="170" border="0" align="right" cellpadding="0" cellspacing="0" class="em_wrapper">
+                        <tr>
+                                <td align="center" class="em_pad_top"><img editable="true" class="em_full_img" src="/images/img_170x162.jpg" width="340" alt="img_170X162" style="display:block; max-width:170px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+                              </tr>
+                              <tr>
+                                <td height="28" class="em_height">&nbsp;</td>
+                              </tr>
+                             <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Pellentesque vitaeLorem ipsum dol amet, consectetur adipiscing elit.<br />
+<br />
+<a href="#" target="_blank" class="em_bodytext_grey">Read More +</a></multiline></td>
+                        </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                       <table width="170" border="0" align="right" cellpadding="0" cellspacing="0" class="em_wrapper">
+                        <tr>
+                                <td align="center" class="em_pad_top"><img editable="true" class="em_full_img" src="/images/img_170x162.jpg" width="340" alt="img_170X162" style="display:block; max-width:170px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+                              </tr>
+                              <tr>
+                                <td height="28" class="em_height">&nbsp;</td>
+                              </tr>
+                             <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Pellentesque vitaeLorem ipsum dol amet, consectetur adipiscing elit.<br />
+<br />
+<a href="#" target="_blank" class="em_bodytext_grey">Read More +</a></multiline></td>
+                        </tr>
+                            </table>
+                                </td>
+                              </tr>
+                            </table>
+                    </td>
+                  
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+          
+            <layout label='3 COLUMN (LEFT IMG + RIGHT TEXT)'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                         <table width="185" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                        <tr>
+                          <td align="center" valign="top" class="em_pad_bottom"><img editable="true" class="em_full_img" src="/images/img_185x240.jpg" width="370" alt="img_185X280" style="display:block;border:none; max-width:185px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" /></td>
+                        </tr>
+                     </table>
+                      <table width="345" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                       <tr>
+                          <td height="5" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod. Nunc faucibus varius ex eget aliquam.<br />
+<br />
+<a href="#" target="_blank" class="em_bodytext_grey">Read More +</a></multiline></td>
+                        </tr>
+                      </table>
+                        </td>
+                      </tr>
+                    </table>
+                
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+         
+            <layout label='3 COLUMN (RIGHT IMG + LEFT TEXT)'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                        <table width="185" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                        <tr>
+                          <td align="center" valign="top" class="em_pad_bottom"><img editable="true" class="em_full_img" src="/images/img_185x240.jpg" width="370" alt="img_185X280" style="display:block;border:none; max-width:185px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" /></td>
+                        </tr>
+                     </table>
+                         <table width="345" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                       <tr>
+                          <td height="5" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod. Nunc faucibus varius ex eget aliquam.<br />
+<br />
+<a href="#" target="_blank" class="em_bodytext_grey">Read More +</a></multiline></td>
+                        </tr>
+                      </table>
+                         </td>
+                      </tr>
+                    </table>
+                
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+        
+            <layout label='LEFT IMG + RIGHT PINK BOX'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top" class="em_bg_blogpink">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+             
+                      <tr>
+                        <td valign="top">
+                        <table width="324" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                        <tr>
+                          <td align="center" valign="top"><img src="/images/324x312_img.jpg" editable="true" width="648" alt="img_324X312" style="display:block;border:none; max-width:324px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" class="em_full_img" /></td>
+                        </tr>
+                     </table>
+                     
+                        <!--[if gte mso 9]>
+                                </td>
+                                <td valign="top">
+                            <![endif]-->
+                         <table width="326" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                         <tr>
+                          <td width="30" class="em_space">&nbsp;</td>
+                        <td valign="top"> 
+                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                          <td height="40" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_white" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="10" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_white" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod.</multiline></td>
+                        </tr>
+                         <tr>
+                          <td height="30" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_buttonwhite">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_pink"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                          <td height="5" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        </table>
+                        </td>
+                        <td width="30" class="em_space">&nbsp;</td>
+                        </tr>
+                      </table>
+                         </td>
+                      </tr>
+                  
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+          
+            <layout label='RIGHT IMG + LEFT PINK BOX'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top" class="em_bg_blogpink">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" dir="rtl">
+             
+                      <tr>
+                        <td valign="top" dir="ltr">
+                        <table width="324" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper" dir="ltr">
+                        <tr>
+                          <td align="center" valign="top"><img src="/images/324x312_img.jpg" editable="true" width="324" alt="img_324X312" style="display:block;border:none; max-width:324px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" class="em_full_img" /></td>
+                        </tr>
+                     </table>
+                     
+                        <!--[if gte mso 9]>
+                                </td>
+                                <td valign="top" dir="ltr">
+                            <![endif]-->
+                         <table width="326" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper" dir="ltr">
+                         <tr>
+                          <td width="30" class="em_space">&nbsp;</td>
+                        <td valign="top"> 
+                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                          <td height="40" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_white" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="10" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_white" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod.</multiline></td>
+                        </tr>
+                         <tr>
+                          <td height="30" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_buttonwhite">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_pink"><multiline><a href="#" target="_blank" class="em_button_text_pink">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                          <td height="5" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        </table>
+                        </td>
+                        <td width="30" class="em_space">&nbsp;</td>
+                        </tr>
+                      </table>
+                         </td>
+                      </tr>
+                  
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+       <layout label='LEFT IMG + RIGHT ORANGE BOX'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top" class="em_bg_orange">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+             
+                      <tr>
+                        <td valign="top">
+                        <table width="324" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                        <tr>
+                          <td align="center" valign="top"><img src="/images/324x312_img.jpg" editable="true" width="324" alt="img_324X312" style="display:block;border:none; max-width:324px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" class="em_full_img" /></td>
+                        </tr>
+                     </table>
+                     
+                        <!--[if gte mso 9]>
+                                </td>
+                                <td valign="top">
+                            <![endif]-->
+                         <table width="326" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                         <tr>
+                          <td width="30" class="em_space">&nbsp;</td>
+                        <td valign="top"> 
+                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                          <td height="40" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_white" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="10" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_white" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod.</multiline></td>
+                        </tr>
+                         <tr>
+                          <td height="30" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_buttonwhite">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_orange"><multiline><a href="#" target="_blank" class="em_button_text_orange">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                          <td height="5" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        </table>
+                        </td>
+                        <td width="30" class="em_space">&nbsp;</td>
+                        </tr>
+                      </table>
+                         </td>
+                      </tr>
+                  
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+          
+            <layout label='RIGHT IMG + LEFT ORANGE BOX'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top" class="em_bg_orange">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" dir="rtl">
+             
+                      <tr>
+                        <td valign="top" dir="ltr">
+                        <table width="324" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper" dir="ltr">
+                        <tr>
+                          <td align="center" valign="top"><img src="/images/324x312_img.jpg" editable="true" width="324" alt="img_324X312" style="display:block;border:none; max-width:324px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" class="em_full_img" /></td>
+                        </tr>
+                     </table>
+                     
+                        <!--[if gte mso 9]>
+                                </td>
+                                <td valign="top" dir="ltr">
+                            <![endif]-->
+                         <table width="326" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper" dir="ltr">
+                         <tr>
+                          <td width="30" class="em_space">&nbsp;</td>
+                        <td valign="top"> 
+                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                          <td height="40" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_white" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="10" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_white" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod.</multiline></td>
+                        </tr>
+                         <tr>
+                          <td height="30" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_buttonwhite">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_orange"><multiline><a href="#" target="_blank" class="em_button_text_orange">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                          <td height="5" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        </table>
+                        </td>
+                        <td width="30" class="em_space">&nbsp;</td>
+                        </tr>
+                      </table>
+                         </td>
+                      </tr>
+                  
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+           
+             <layout label='LEFT IMG + RIGHT GREEN BOX'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top" class="em_bg_green">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+             
+                      <tr>
+                        <td valign="top">
+                        <table width="324" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                        <tr>
+                          <td align="center" valign="top"><img src="/images/324x312_img.jpg" editable="true" width="324" alt="img_324X312" style="display:block;border:none; max-width:324px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" class="em_full_img" /></td>
+                        </tr>
+                     </table>
+                     
+                        <!--[if gte mso 9]>
+                                </td>
+                                <td valign="top">
+                            <![endif]-->
+                         <table width="326" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                         <tr>
+                          <td width="30" class="em_space">&nbsp;</td>
+                        <td valign="top"> 
+                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                          <td height="40" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_white" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="10" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_white" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod.</multiline></td>
+                        </tr>
+                         <tr>
+                          <td height="30" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_buttonwhite">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_green"><multiline><a href="#" target="_blank" class="em_button_text_green">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                          <td height="5" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        </table>
+                        </td>
+                        <td width="30" class="em_space">&nbsp;</td>
+                        </tr>
+                      </table>
+                         </td>
+                      </tr>
+                  
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+          
+            <layout label='RIGHT IMG + LEFT GREEN BOX'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top" class="em_bg_green">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" dir="rtl">
+             
+                      <tr>
+                        <td valign="top" dir="ltr">
+                        <table width="324" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper" dir="ltr">
+                        <tr>
+                          <td align="center" valign="top"><img src="/images/324x312_img.jpg" editable="true" width="324" alt="img_324X312" style="display:block;border:none; max-width:324px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" class="em_full_img" /></td>
+                        </tr>
+                     </table>
+                     
+                        <!--[if gte mso 9]>
+                                </td>
+                                <td valign="top" dir="ltr">
+                            <![endif]-->
+                         <table width="326" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper" dir="ltr">
+                         <tr>
+                          <td width="30" class="em_space">&nbsp;</td>
+                        <td valign="top"> 
+                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                          <td height="40" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_white" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="10" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_white" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod.</multiline></td>
+                        </tr>
+                         <tr>
+                          <td height="30" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_buttonwhite">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_green"><multiline><a href="#" target="_blank" class="em_button_text_green">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                          <td height="5" style="line-height:1px;font-size:1px;" class="em_height">&nbsp;</td>
+                        </tr>
+                        </table>
+                        </td>
+                        <td width="30" class="em_space">&nbsp;</td>
+                        </tr>
+                      </table>
+                         </td>
+                      </tr>
+                  
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+        
+            <layout label='BANNER WITH BUTTON'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" align="center" cellpadding="0" cellspacing="0" class="em_wrapper" style="table-layout:fixed;">
+      
+      
+                  <tr>
+                   <td valign="top">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                          <td width="45" class="em_space">&nbsp;</td>
+                          <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                             <tr>
+                    <td align="center"><img src="/images/semi_banner1.jpg" width="560" editable="true" class="em_full_img" alt="img_560X250" style="display:block; max-width:560px;" border="0" /></td>
+                  </tr>
+                  <tr>
+                    <td height="35" class="em_height">&nbsp;</td>
+                  </tr>
+                              <tr>
+                                <td align="left" class="em_headingtext_black"><singleline>SUBHEAD HERE</singleline></td>
+                              </tr>
+                              <tr>
+                                <td height="10" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td class="em_bodytext_grey" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod. Faucibus varius ex eget aliquam.</multiline></td>
+                              </tr>
+                              <tr>
+                                <td height="10" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                            <td valign="top" align="left">
+                                              <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_pink">
+                                                <tr>
+                                                        <td height="43" valign="middle" align="center" class="em_button_text_white"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                                      </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                            </table>
+                          </td>
+                          <td width="45" class="em_space">&nbsp;</td>
+                        </tr>
+                    </table>
+            
+                   </td>
+                  </tr>
+      <tr>
+        <td height="40" style="line-height:0px; font-size:0px;	">&nbsp;</td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+ <layout label='CTA BUTTON LEFT'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" align="center" cellpadding="0" cellspacing="0" class="em_wrapper" style="table-layout:fixed;">
+      
+      
+                  <tr>
+                   <td valign="top">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                          <td width="45" class="em_space">&nbsp;</td>
+                          <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                           
+								
+                                <td height="10" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                              
+                              <tr>
+                                            <td valign="top" align="left">
+                                              <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_pink">
+                                                <tr>
+                                                        <td height="43" valign="middle" align="center" class="em_button_text_white"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                                      </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                            </table>
+                          </td>
+                          <td width="45" class="em_space">&nbsp;</td>
+                        </tr>
+                    </table>
+            
+                   </td>
+                  </tr>
+      <tr>
+        <td height="40" style="line-height:0px; font-size:0px;	">&nbsp;</td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>         
+          <layout label='CTA BUTTON CENTER'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" align="center" cellpadding="0" cellspacing="0" class="em_wrapper" style="table-layout:fixed;">
+      
+      
+                  <tr>
+                   <td valign="top">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                          <td width="45" class="em_space">&nbsp;</td>
+                          <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                           
+								
+                                <td height="10" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                              
+                              <tr>
+                                            <td valign="top" align="center">
+                                              <table border="0" align="center" cellpadding="0" cellspacing="0" class="em_bg_pink">
+                                                <tr>
+                                                        <td height="43" valign="middle" align="center" class="em_button_text_white"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                                      </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                            </table>
+                          </td>
+                          <td width="45" class="em_space">&nbsp;</td>
+                        </tr>
+                    </table>
+            
+                   </td>
+                  </tr>
+      <tr>
+        <td height="40" style="line-height:0px; font-size:0px;	">&nbsp;</td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+ <layout label='CTA BUTTON RIGHT'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" align="center" cellpadding="0" cellspacing="0" class="em_wrapper" style="table-layout:fixed;">
+      
+      
+                  <tr>
+                   <td valign="top">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                          <td width="45" class="em_space">&nbsp;</td>
+                          <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                           
+								
+                                <td height="10" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                              
+                              <tr>
+                                            <td valign="top" align="right">
+                                              <table border="0" align="right" cellpadding="0" cellspacing="0" class="em_bg_pink">
+                                                <tr>
+                                                        <td height="43" valign="middle" align="center" class="em_button_text_white"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                                      </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                            </table>
+                          </td>
+                          <td width="45" class="em_space">&nbsp;</td>
+                        </tr>
+                    </table>
+            
+                   </td>
+                  </tr>
+      <tr>
+        <td height="40" style="line-height:0px; font-size:0px;	">&nbsp;</td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>                  
+            <layout label='LEFT IMG + RIGHT TEXT BLUE BG'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_bg_pink">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                         <table width="200" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                        <tr>
+                         <td height="35" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top"><img src="/images/200x200_img.jpg" class="em_full_img" editable="true" width="400" alt="img_200X200" style="display:block;border:none; max-width:200px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" /></td>
+                        </tr>
+                         <tr>
+                         <td height="35" class="em_hide">&nbsp;</td>
+                        </tr>
+                     </table>
+                      <table width="330" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                       <tr>
+                          <td height="38" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_white" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_white" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada.</multiline></td>
+                        </tr>
+                         <tr>
+                          <td height="20" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_buttonwhite">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_blue"><multiline><a href="#" target="_blank" class="em_button_text_blue">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                        <tr>
+                          <td height="10" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                      </table>
+                        </td>
+                      </tr>
+                    </table>
+                
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+          
+           
+            <layout label='RIGHT IMG + LEFT TEXT BLUE BG'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_bg_pink">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                         <table width="200" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                        <tr>
+                         <td height="35" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top"><img src="/images/200x200_img.jpg" class="em_full_img" editable="true" width="400" alt="img_265X150" style="display:block;border:none; max-width:200px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" /></td>
+                        </tr>
+                         <tr>
+                         <td height="35" class="em_hide">&nbsp;</td>
+                        </tr>
+                     </table>
+                      <table width="330" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                       <tr>
+                          <td height="38" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_headingtext_white" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                           <tr>
+                          <td class="em_bodytext_white" align="left"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada.</multiline></td>
+                        </tr>
+                         <tr>
+                          <td height="20" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_buttonwhite">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_blue"><multiline><a href="#" target="_blank" class="em_button_text_blue">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                        <tr>
+                          <td height="10" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                      </table>
+                        </td>
+                      </tr>
+                    </table>
+                
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+        
+            <layout label='2 COLUMN (LEFT IMG + RIGHT TEXT)'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                          <table width="240" border="0" align="left" cellpadding="0" cellspacing="0" class="em_wrapper">
+                  <tr>
+                    <td align="center" class="em_pad_bottom"><img class="em_full_img" editable="true" src="/images/240x260_img.jpg" width="480" alt="img_240X260" style="display:block; max-width:240px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+                  </tr>
+                </table>
+                         <table width="290" border="0" align="right" cellpadding="0" cellspacing="0" class="em_wrapper">
+                  <tr>
+                    <td align="left" class="em_headingtext_black"><singleline>SUBHEAD HERE</singleline></td>
+                  </tr>
+                  <tr>
+                    <td height="15" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                  </tr>
+                  <td align="left" class="em_bodytext_grey"><multiline>Lorem ipgsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula.<br />
+<br />
+                    <ul style="list-style-type:disc;">
+                                                        <li>Lorem ipsum dolor sit amet.</li>
+                                                        <li>Vestibulum ullamcorper turpis at arcu.</li>
+                                                        <li>Maximus massa dapibus.tesque.</li>
+                                                       
+                                                        </ul></multiline> </td>
+                   <tr>
+                    <td height="18" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                  </tr>  
+                  
+                                                    
+                  <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_pink">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_white"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                </table>
+                        </td>
+                      </tr>
+                    </table>
+                
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+          
+            <layout label='2 COLUMN (RIGHT IMG + LEFT TEXT)'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                          <table width="240" border="0" align="right" cellpadding="0" cellspacing="0" class="em_wrapper">
+                  <tr>
+                    <td align="center" class="em_pad_bottom"><img class="em_full_img" editable="true" src="/images/240x260_img.jpg" width="480" alt="img_240X260" style="display:block; max-width:240px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+                  </tr>
+                </table>
+                         <table width="290" border="0" align="left" cellpadding="0" cellspacing="0" class="em_wrapper">
+                  <tr>
+                    <td align="left" class="em_headingtext_black"><singleline>SUBHEAD HERE</singleline></td>
+                  </tr>
+                  <tr>
+                    <td height="15" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="left" class="em_bodytext_grey"><multiline>Lorem ipgsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula.<br />
+<br />
+                    <ul style="list-style-type:disc;">
+                                                        <li>Lorem ipsum dolor sit amet.</li>
+                                                        <li>Vestibulum ullamcorper turpis at arcu.</li>
+                                                        <li>Maximus massa dapibus.tesque.</li>
+                                                       
+                                                        </ul></multiline> </td>
+                  </tr>
+                 
+                      <tr>
+                    <td height="18" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                  </tr>                                   
+                  <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_pink">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_white"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                </table>
+                        </td>
+                      </tr>
+                    </table>
+                
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+        
+        
+         
+            <layout label='3 COLUMN SECTION WITH CTA'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                            <table width="365" border="0" align="left" cellpadding="0" cellspacing="0" class="em_wrapper">
+                  <tr>
+                    <td valign="top">
+                      <table width="170" border="0" align="left" cellpadding="0" cellspacing="0" class="em_wrapper">
+                        <tr>
+                                <td align="center"><img class="em_full_img" editable="true" src="/images/img_170x162.jpg" width="170" alt="img_170X162" style="display:block; max-width:170px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+                              </tr>
+                              <tr>
+                                <td height="28" class="em_height">&nbsp;</td>
+                              </tr>
+                             <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Pellentesque vitaeLorem ipsum dol amet, consectetur adipiscing elit.</multiline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                       
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_pink">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_white"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <table width="170" border="0" align="right" cellpadding="0" cellspacing="0" class="em_wrapper">
+                        <tr>
+                                <td align="center" class="em_pad_top"><img editable="true" class="em_full_img" src="/images/img_170x162.jpg" width="170" alt="img_170X162" style="display:block; max-width:170px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+                              </tr>
+                              <tr>
+                                <td height="28" class="em_height">&nbsp;</td>
+                              </tr>
+                             <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Pellentesque vitaeLorem ipsum dol amet, consectetur adipiscing elit.</multiline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_pink">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_white"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                       <table width="170" border="0" align="right" cellpadding="0" cellspacing="0" class="em_wrapper">
+                        <tr>
+                                <td align="center" class="em_pad_top"><img editable="true" class="em_full_img" src="/images/img_170x162.jpg" width="170" alt="img_170X162" style="display:block; max-width:170px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+                              </tr>
+                               <tr>
+                                <td height="28" class="em_height">&nbsp;</td>
+                              </tr>
+                             <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Pellentesque vitaeLorem ipsum dol amet, c<span class="em_pad_top"></span>onsectetur adipiscing elit.</multiline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                       
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_pink">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_white"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                                </td>
+                              </tr>
+                            </table>
+                    </td>
+                  
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+         
+            <layout label='2 COLUMN (IMG + COPY + CTA)'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                              <table width="265" border="0" align="left" cellpadding="0" cellspacing="0" class="em_wrapper">
+                        <tr>
+                                <td align="center"><img editable="true" src="/images/265x265_img.jpg" width="265" class="em_full_img" alt="img_265X265" style="display:block;border:none; max-width:265px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" /></td>
+                              </tr>
+                              <tr>
+                                <td height="28" class="em_height">&nbsp;</td>
+                              </tr>
+                             <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Pellentesque vitaeLorem ipsum dol amet, consectetur adipiscing elit.</multiline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                       
+                               <tr>
+                          <td height="20" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_pink">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_white"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                            <table width="265" border="0" align="right" cellpadding="0" cellspacing="0" class="em_wrapper">
+                        <tr>
+                                <td align="center" class="em_pad_top"><img editable="true" class="em_full_img" src="/images/265x265_img.jpg" width="265" alt="img_265X265" style="display:block;border:none; max-width:265px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" /></td>
+                              </tr>
+                              <tr>
+                                <td height="28" class="em_height">&nbsp;</td>
+                              </tr>
+                             <tr>
+                          <td class="em_headingtext_black" align="left"><singleline>SUBHEAD HERE</singleline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class="em_bodytext_grey" align="left"><multiline>Pellentesque vitaeLorem ipsum dol amet, consectetur adipiscing elit.</multiline></td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        
+                               <tr>
+                          <td height="20" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_pink">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_white"><multiline><a href="#" target="_blank" class="em_button_text_white">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                       
+                                </td>
+                              </tr>
+                            </table>
+                    </td>
+                  
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+         
+            <layout label='BLUE BG (TITLE + CONTENT + CTA)'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" align="center" cellpadding="0" cellspacing="0" class="em_wrapper" style="table-layout:fixed;">
+               <tr>
+                <td valign="top" class="em_bg_pink">
+                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+              <td width="45" class="em_space">&nbsp;</td>
+              <td valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+               
+                      <tr>
+                        <td height="35" class="em_height">&nbsp;</td>
+                      </tr>
+                  <tr>
+                    <td align="left" class="em_titletext_white"><singleline>SUBHEAD HERE</singleline></td>
+                  </tr>
+                  <tr>
+                    <td height="10" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td align="left" class="em_bodytext_white"><multiline>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et. Aliquam vitae sem eget erat viverra malesuada. Aliquam volutpat vel est quis euismod. Faucibus varius ex eget aliquam.</multiline></td>
+                  </tr>
+                  <tr>
+                    <td height="20" style="line-height:0px; font-size:0px;">&nbsp;</td>
+                  </tr>
+                  <tr>
+                                <td valign="top" align="left">
+                                  <table border="0" align="left" cellpadding="0" cellspacing="0" class="em_bg_buttonwhite">
+                                    <tr>
+                                            <td height="43" valign="middle" align="center" class="em_button_text_blue"><multiline><a href="#" target="_blank" class="em_button_text_blue">&nbsp;&nbsp;&nbsp;CALL TO ACTION&nbsp;&nbsp;&nbsp;</a></multiline></td>
+                                          </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                               <tr>
+                        <td height="35" class="em_height">&nbsp;</td>
+                      </tr>
+                </table>
+              </td>
+              <td width="45" class="em_space">&nbsp;</td>
+            </tr>
+            </table>
+            </td>
+            </tr>
+          <tr>
+        <td height="40" style="line-height:0px; font-size:0px;	">&nbsp;</td>
+      </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+        
+            <layout label='2 COLUMN IMG'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+             
+                      <tr>
+                        <td valign="top">
+                        <table width="325" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                        <tr>
+                          <td align="center" valign="top"><img src="/images/325x260_img.jpg" width="325" editable="true" alt="img_325X260" style="display:block;border:none; max-width:325px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" class="em_full_img" /></td>
+                        </tr>
+                     </table>
+                     
+<!--[if gte mso 9]>
+        </td>
+        <td valign="top">
+    <![endif]-->
+                         <table width="325" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                          <tr>
+                          <td align="center" valign="top" class="em_pad_top"><img src="/images/325x260_img1.jpg" editable="true" width="325" alt="img_325X260" style="display:block;border:none; max-width:325px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" class="em_full_img" /></td>
+                        </tr>
+                      </table>
+                         </td>
+                      </tr>
+                  
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+        
+            <layout label='3 COLUMN IMG'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+               <td width="45" class="em_space">&nbsp;</td>
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td valign="top">
+                            <table width="367" border="0" align="left" cellpadding="0" cellspacing="0" class="em_wrapper">
+                  <tr>
+                    <td valign="top">
+                      <table width="175" border="0" align="left" cellpadding="0" cellspacing="0" class="em_wrapper">
+                        <tr>
+                                <td align="center"><img class="em_full_img" editable="true" src="/images/175x120_img1.png" width="175" alt="img_170X120" style="display:block; max-width:175px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+                              </tr>
+                             </table>
+                            <table width="175" border="0" align="right" cellpadding="0" cellspacing="0" class="em_wrapper">
+                        <tr>
+                                <td align="center" class="em_pad_top"><img editable="true" class="em_full_img" src="/images/175x120_img1.png" width="175" alt="img_170X120" style="display:block; max-width:175px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+                              </tr>
+                             </table>
+                          </td>
+                        </tr>
+                      </table>
+                       <table width="175" border="0" align="right" cellpadding="0" cellspacing="0" class="em_wrapper">
+                        <tr>
+                                <td align="center" valign="top" class="em_pad_top"><img editable="true" class="em_full_img" src="/images/175x120_img1.png" width="175" alt="img_170X120" style="display:block; max-width:175px;font-family:Arial, sans-serif; font-size:20px; line-height:30px; color:#000000; font-weight:bold;" border="0" /></td>
+                              </tr>
+                             </table>
+                                </td>
+                              </tr>
+                            </table>
+                    </td>
+                  
+              <td width="45" class="em_space">&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+                          <td height="40" class="em_height" style="line-height:1px;font-size:1px;">&nbsp;</td>
+                        </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+          
+        
+         
+            <layout label='SPACER'>
+           <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+          <tr>
+           <td valign="top" align="center">
+          <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+      
+         <tr>
+                          <td height="20" class="em_height" style="line-height:0px;font-size:0px;"><img editable="true" src="/images/spacer.gif" width="1" style="display:block;" border="0" alt="" /></td>
+            </tr>
+    </table>
+         </td>
+         </tr>
+         </table>
+           </layout>
+        
+     </repeater>
+  
+  
+ <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+      
+                  <tr>
+                    <td valign="top">
+                    <repeater>
+                    
+                      <layout label='CONTACT'>
+                       <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td valign="top" align="center">
+                                 <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+                                  <tr>
+                                    <td class="em_bg_grey" align="center" valign="top">
+                                      <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                        <tr>
+                                          <td height="35" class="em_height">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                          <td align="center" valign="top">
+                                            <table width="485" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                              <tr>
+                                                <td>
+                                                  <table width="310" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                                    <tr>
+                                                      <td class="em_pad_bottom">
+                                                        <table width="120" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                                          <tr>
+                                                            <td class="em_contact_text1_grey" align="left">CONTACT US</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td height="5" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td align="left" class="em_contact_text2_grey"><multiline>Address: 1<br />
+                                                              Address: 2</multiline>
+                                                            </td>
+                                                          </tr>
+                                                        </table>
+                                                        <table width="140" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                                                          <tr>
+                                                            <td class="em_pad_top">
+                                                              <table width="140" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                                                                <tr>
+                                                               
+                                                                </tr>
+                                                              </table>
+                                                            </td>
+                                                          </tr>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </table>
+                                                  <table width="120" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                                                    <tr>
+                                                      <td class="em_contact_text1_grey" align="left">NEWSLETTER </td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td height="5" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td class="em_contact_text2_grey" align="left"><multiline><forwardtoafriend style="text-decoration:none; color:#ffffff;">Forward</forwardtoafriend><br />
+                                                        <unsubscribe style="text-decoration:none; color:#ffffff;">Unsubscribe</unsubscribe><br />
+                                                        <a href="#" target="_blank" class="em_contact_text2_grey">Home</a></multiline>
+                                                      </td>
+                                                    </tr>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="35" class="em_height">&nbsp;</td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                                </td>
+                              </tr>
+                            </table>
+                     </layout>
+                      
+                      
+                      <layout label='FOOTER_1'>
+                       <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                        <td valign="top" align="center">
+                         <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+                                   <tr>
+                    <td class="em_bg_pink" valign="top">
+                      <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                        <tr>
+                          <td height="15" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top">
+                            <table width="126" border="0" cellspacing="0" cellpadding="0" align="center">
+                              <tr>
+                                <td width="24"><a href="#" target="_blank" style="text-decoration:none;"><img editable="true" src="/images/download.png" width="24" alt="FB" style="display:block;" border="0" /></a></td>
+                                <td width="10">&nbsp;</td>
+                                <td width="24"><a href="#" target="_blank" style="text-decoration:none;"><img editable="true" src="/images/download-1.png" width="24" alt="TW" style="display:block;" border="0" /></a></td>
+                                <td width="10">&nbsp;</td>
+                                <td width="24"><a href="#" target="_blank" style="text-decoration:none;"><img editable="true" src="/images/download-2.png" width="24" alt="IN" style="display:block;" border="0" /></a></td>
+ 
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="15" style="line-height:1px; font-size:1px;">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                                     <tr>
+                                    <td height="20">&nbsp;</td>
+                                  </tr>
+                                   <tr>
+                                    <td valign="top">
+                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td width="50" class="em_space">&nbsp;</td>
+                                          <td align="center" class="em_headertext_grey"><multiline>Copyright &copy; <currentyear>, All rights reserved.<br />
+                                            Support / <unsubscribe style="text-decoration:none; color:#e74c62;">Unsubscribe</unsubscribe> / <preferences style="text-decoration:none; color:#333333; white-space:nowrap;">Update preferences</preferences></multiline>
+                                          </td>
+                                          <td width="50" class="em_space">&nbsp;</td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td height="20">&nbsp;</td>
+                                  </tr>
+                                </table>
+                                 </td>
+                             </tr>
+                            </table>
+                      </layout>
+                      
+                      
+                      <layout label='FOOTER_2'>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                        <td valign="top" align="center">
+                         <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+                                    <tr>
+                    <td valign="top" class="em_bg_lightgrey">
+                      <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                        <tr>
+                          <td height="20">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td valign="top">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td width="25" class="em_space">&nbsp;</td>
+                                <td>
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <tr>
+                                      <td valign="top">
+                                        <table width="101" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper">
+                                          <tr>
+                                            <td align="center" class="em_pad_bottom"><a href="#" target="_blank" style="text-decoration:none;"><img src="/images/bfblogo_blacktext__2x.png" width="114" editable="true" alt="LOGO HERE" style="display:block; max-width:101px; font-family:Arial, sans-serif; font-size:12px; line-height:16px; color:#000000; font-weight:bold;" border="0" /></a><strong></strong></td>
+                                          </tr>
+                                        </table>
+                                        <table width="235" border="0" cellspacing="0" cellpadding="0" align="right" class="em_wrapper">
+                                          <tr>
+                                            <td>
+                                              <table width="235" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                <tr>
+                                                  <td width="101" align="right" class="em_bodytext_grey" style="text-decoration:underline; color:#e74c62;">Follow us</td>
+                                                  <td width="8">&nbsp;</td>
+                                                  <td width="126" valign="top">
+                                                    <table width="126" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        <td width="24"><a href="#" target="_blank" style="text-decoration:none;"><img editable="true" src="/images/download.png" width="24" alt="Fk" style="display:block;" border="0" /></a></td>
+                                                        <td width="10">&nbsp;</td>
+                                                        <td width="24"><a href="#" target="_blank" style="text-decoration:none;"><img editable="true" src="/images/download-1.png" width="24" alt="Tw" style="display:block;" border="0" /></a></td>
+                                                        <td width="10">&nbsp;</td>
+                                                        <td width="24"><a href="#" target="_blank" style="text-decoration:none;"><img editable="true" src="/images/download-2.png" width="24" alt="In" style="display:block;" border="0" /></a></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td width="25" class="em_space">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="20">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                                     <tr>
+                                    <td height="20">&nbsp;</td>
+                                  </tr>
+                                   <tr>
+                                    <td valign="top">
+                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td width="50" class="em_space">&nbsp;</td>
+                                          <td align="center" class="em_headertext_grey"><multiline>Copyright &copy; <currentyear> , All rights reserved.<br />
+                                            Support / <unsubscribe style="text-decoration:none; color:#e74c62;">Unsubscribe</unsubscribe> / <preferences style="text-decoration:none; color:#333333; white-space:nowrap;">Update preferences</preferences></multiline>
+                                          </td>
+                                          <td width="50" class="em_space">&nbsp;</td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td height="20">&nbsp;</td>
+                                  </tr>
+                                </table>
+                                 </td>
+                             </tr>
+                            </table>
+                         
+                      </layout>
+                      
+                      
+                        
+                      <layout label='FOOTER_3'>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                       <tr>
+                        <td valign="top" align="center">
+                         <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="table-layout:fixed;">
+                  <tr>
+                    <td class="em_bg_grey">
+                      <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                        <tr>
+                          <td height="35" class="em_height">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="center">
+                            <table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                              <tr>
+                                <td width="100" class="em_space">&nbsp;</td>
+                                <td>
+                                  <table width="450" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper">
+                                    <tr>
+                                      <td class="em_footertext_grey" align="center"><multiline>Copyright &copy; <currentday> <currentmonth> <currentyear>, All rights reserved.
+                                        </multiline>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td height="20">&nbsp;</td>
+                                    </tr>
+                                    
+                                   
+                                    <tr>
+                                      <td class="em_footertext_grey" align="center"><multiline><unsubscribe style="text-decoration:underline; color:#ffffff; white-space:nowrap;">Unsubscribe from this list</unsubscribe> <span class="em_hide">&nbsp;&nbsp;|&nbsp;&nbsp;</span> <preferences style="text-decoration:none; color:#ffffff; white-space:nowrap;">Update subscription preferences</preferences></multiline></td>
+                                    </tr>
+                                  
+                                    <tr>
+                                      <td height="20">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center">
+                                        <table width="92" border="0" cellspacing="0" cellpadding="0" align="center">
+                                          <tr>
+                                            <td width="24"><a href="#" target="_blank" style="text-decoration:none;"><img editable="true" src="/images/download.png" width="24" alt="Fb" style="display:block;" border="0" /></a></td>
+                                            <td width="10">&nbsp;</td>
+                                            <td width="24"><a href="#" target="_blank" style="text-decoration:none;"><img editable="true" src="/images/download-1.png" width="24" alt="Tw" style="display:block;" border="0" /></a></td>
+                                            <td width="10">&nbsp;</td>
+                                            <td width="24"><a href="#" target="_blank" style="text-decoration:none;"><img editable="true" src="/images/download-2.png" width="24" alt="G+" style="display:block;" border="0" /></a></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td width="100" class="em_space">&nbsp;</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="35" class="em_height">&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                                 </td>
+                             </tr>
+                            </table>
+                         
+                      </layout>
+                      
+                      
+                      </repeater>
+                    </td>
+                  </tr>
+                  <tr>
+                   <td style="font-size:1px; line-height:1px;"><unsubscribe>&nbsp;</unsubscribe></td>
+                  </tr>
+                </table>
+             
+<div style="display:none; white-space:nowrap; font:20px courier; color:#ffffff; background-color:#ffffff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div></body>
+</html>
